@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  line-height: 28.13px;
+}
+div.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #c4c4c4;
+  height: 763px;
+  width: 661px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px;
+  margin: 60px;
+  justify-content: space-between;
+}
+
+
+.userinput {
+  width: 500px;
+  height: 61px;
+  background-color: white;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  line-height: 56.25px;
+}
+
+.autocompleteDropdown {
+  background-color: #e3e3e3;
+  font-size: 30px;
+  line-height: 35.16px;
+}
+
+.suggestion {
+  border: 1px solid black;
+
+}
+
+.suggestion:hover{
+  border: 2px solid #65CDF9;
+  text-decoration: underline #65CDF9;
+  cursor: pointer;
+  
+}
+.suggestion:active{
+  background-color: #65CDF9;
+ }
+.option {
+  height: 101px;
+  width: 503px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16.5px;
+  padding-right: 16.5px;
+  font-size: 24px;
+  line-height: 28.31px;
+  background-color: #e27beb;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.close-button:hover{
+  color:#65CDF9;
+  cursor: pointer;
+  border: none;
+}
+
+.option:hover{
+  border: 2px solid #65CDF9;
+  text-decoration: underline #65CDF9;
+  cursor: pointer;
+    
+}
+
+.close-button {
+  background-color: #e27aeb;
+  border: 5px solid #e27aeb;
+  color: red;
+  font-size: 60px;
+  box-shadow: inset 20px #e27aeb;
+}
